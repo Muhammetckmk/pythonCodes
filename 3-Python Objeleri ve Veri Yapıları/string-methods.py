@@ -1,0 +1,40 @@
+message = 'Hello There. My name is Muhammet Çakmak'
+#message = message.split()
+
+
+message1 = message.upper()
+message2 = message.lower()
+message3 = message.title()
+message4 = message.capitalize()
+
+message5 = message.strip()
+message6 = message.split()
+message7 = message.split('.')
+message8= '---'.join(message)
+
+index1 = message.find('Muhammet')
+isFound1 = message.startswith('H')
+isFound2 = message.endswith('n')
+
+message9 = message.replace('Muhammet','nimet')
+message10 = message.replace('ç','c')
+message11 = message.replace('e','o')
+message12 = message.replace(' ','-')
+message13 = message.center(5,'*')
+message14=len(message)
+
+print(message1)
+print(message2)
+print(message3)
+print(message4)
+print(message5)
+print(message6)
+print(message7)
+print(message8)
+print(message9)
+print(message10)
+print(message14)
+print(message14)
+print(index1)
+print(isFound1)
+print(isFound2)
