@@ -3,13 +3,13 @@ surname = 'Çakmak'
 age = 32
 
 print('My name is {} {}'.format(name, surname))
-# print('My name is {1} {0}'.format(name, surname))
-# print('My name is {s} {n}'.format(n=name, s=surname))
-# print("My name is {} {} and I'm {} years old.".format(name, surname, age))
-# print("My name is {} {} and I'm {} years old.".format(name, name, name))
+print('My name is {1} {0}'.format(name, surname))
+print('My name is {s} {n}'.format(n=name, s=surname))
+print("My name is {} {} and I'm {} years old.".format(name, surname, age))
+print("My name is {} {} and I'm {} years old.".format(name, name, name))
 
-# result = 200 / 700
-# print('the result is {r:1.4}'.format(r=result))
+result = 200 / 700
+print('the result is {r:1.4}'.format(r=result))
 
-#print(f"My name is {name} {surname} and I'm {age} years old.")
+print(f"My name is {name} {surname} and I'm {age} years old.")
 

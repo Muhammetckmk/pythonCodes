@@ -2,12 +2,18 @@ numbers = [1, 10, 5, 16, 4, 9, 10]
 letters = ['a', 'g', 's', 'b', 'y', 'a', 's']
 
 val = min(numbers)
+print(val)
 val = max(numbers)
+print(val)
 val = max(letters)
+print(val)
 val = min(letters)
+print(val)
 
 val = numbers[3:6]
+print(val)
 val = numbers[:3]
+print(val)
 val = numbers[4:]
 
 numbers[4] = 40
