@@ -2,61 +2,61 @@ names = ['Ali','Yağmur','Hakan','Deniz']
 years = [1998, 2000, 1998, 1987]
 
 # 1-  "Cenk" ismini listenin sonuna ekleyiniz.
-# names.append('Cenk')
-
+names.append("Cenk")
+print(names)
 # 2-  "Sena" değerini listenin başına ekleyiniz.
-# names.insert(0, 'Sena')
-# names.insert(-1, 'Mehmet')
-# names.insert(len(names), 'Mehmet')
-
+names.insert(0,"Sena")
+print(names)
 # 3-  "Deniz" ismini listeden siliniz.
-# names.remove('Deniz')
-# names.pop()
-# names.pop(1)
-
+#names.remove("Deniz")
+print(names)
 # 4-  "Deniz" isminin indeksi nedir ?
-# index  = names.index('Deniz')
-# names.pop(index)
-
+a=names.index("Deniz")
+print(a)
 # 5-  "Ali" listenin bir elemanı mıdır ?
+if 'Ali' in names:
+    print("listede vardır")
+else:
+    print("listede yoktur")
+
 # result = 'Ali' in names
 # result = names.index('Ali')
 
 # 6-  Liste elemanlarını ters çevirin.
-# names.reverse()
+names.reverse()
+print(names)
 
 # 7-  Liste elemanlarını alfabetik olarak sıralayınız.
-# names.sort()
+names.sort()
+print(names)
 
 # 8-  years listesini rakamsal büyüklüğe göre sıralayınız.
-# years.sort()
+years.sort()
+years.reverse()
+print(years)
 
 # 9-  str = "Chevrolet,Dacia" karakter dizisini listeye çeviriniz.
-# str = "Chevrolet,Dacia"
-# result = str.split(',')
+str = "Chevrolet,Dacia"
+k=str.split(',')
+print(k)
 
 # 10- years dizisinin en büyük ve en küçük elemanı nedir ?
-# min = min(years)
-# max = max(years)
-# print(min, max)
-
+m=min(years)
+n=max(years)
+print(m)
+print(n)
 # 11- years dizisinde kaç tane 1998 değeri vardır ?
-# result = years.count(1998)
-
+z=years.count(1998)
+print(z)
 # 12- years dizisinin tüm elemanlarını siliniz.
-# years.clear()
+years.clear()
+print(years)
 
 # 13- Kullanıcıdan alacağınız 3 tane marka bilgisini bir listede saklayınız.
+marka=[]
+print(marka.append(input("bir marka giriniz : ")))
+print(marka.append(input("bir marka giriniz : ")))
+print(marka.append(input("bir marka giriniz : ")))
 
-markalar = []
+print(marka)
 
-marka = input("marka: ")
-markalar.append(marka)
-
-marka = input("marka: ")
-markalar.append(marka)
-
-marka = input("marka: ")
-markalar.append(marka)
-
-print(markalar)
