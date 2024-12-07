@@ -1,43 +1,43 @@
-# key - value
+#key - value
 
-# 41 => kocaeli 34 => istanbul
+#41 => kocaeli 34 => istanbul
 
-# sehirler = ['kocaeli','istanbul']
-# plakalar = [41, 34]
+#sehirler = ['kocaeli','istanbul']
+#plakalar = [41, 34]
 
-# print(plakalar[sehirler.index('istanbul')])
+#print(plakalar[sehirler.index('istanbul')])
 
-# print(plakalar['kocaeli']) => 41
-# print(plakalar['istanbul']) => 34
+#print(plakalar['kocaeli']) # => 41
+#print(plakalar['istanbul']) #=> 34
 
-# plakalar = { 'kocaeli' : 41, 'istanbul': 34 }
+plakalar = { 'samsun' : 55, 'Kahramanmaraş': 46 }
 
-# print(plakalar['kocaeli'])
-# print(plakalar['istanbul'])
+print(plakalar['samsun'])
+print(plakalar['Kahramanmaraş'])
 
-# plakalar['ankara'] = 6
-# plakalar['kocaeli'] = 'new value'
+plakalar['Gaziantep'] = 6
+plakalar['Niğde'] = 51
 
-# print(plakalar)
+print(plakalar)
 
 users = {
-    'sadikturan': {
+    'muhammetCakmak': {
         'age': 36,        
         'roles': ['user'],
-        'email': 'sadik@gmail.com',
-        'address': 'kocaeli',
+        'email': 'mhmmt@gmail.com',
+        'address': 'Samsun',
         'phone': '1231321'
     },
-    'cinarturan': {
-        'age': 2,
+    'nimetCakmak': {
+        'age': 31,
         'roles': ['admin','user'],
-        'email': 'cinar@gmail.com',
-        'address': 'kocaeli',
+        'email': 'mckmk@gmail.com',
+        'address': 'gaziantep',
         'phone': '1231321'
     }
 }
 
-print(users['cinarturan']['roles'][0])
+print(users['nimetCakmak'])
 
 
 

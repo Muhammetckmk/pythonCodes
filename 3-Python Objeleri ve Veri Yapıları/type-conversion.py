@@ -12,7 +12,7 @@ print(toplam)
 
 x = 5               #int
 y = 2.5             #float
-name = 'Çınar'      #str
+name = 'Fatih'      #str
 isOnline = True     #bool
 
 print(type(x))

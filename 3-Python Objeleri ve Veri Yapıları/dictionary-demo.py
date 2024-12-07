@@ -76,4 +76,3 @@ ogrNo = input('öğrenci no: ')
 ogrenci = ogrenciler[ogrNo]
 print(ogrenci)
 
-print(f"Aradığınız {ogrNo} nolu öğrencinin adı: {ogrenci['ad']} soyadı: {ogrenci['soyad']} ve telefonu ise {ogrenci['telefon']}")
