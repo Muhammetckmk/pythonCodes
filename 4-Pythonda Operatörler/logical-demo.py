@@ -1,8 +1,9 @@
 
 # 1- Girilen bir sayının 0-100 arasında olup olmadığını kontrol ediniz.
-# sayi = float(input('sayı: '))
-# result = (sayi > 0) and (sayi<=100)
-# print(f'sayı 0-100 arasındamı: {result}')
+giris=int(input('bir sayı giriniz : '))
+result= (giris>0) and (giris<100)
+print ( result)
+
 
 # 2- Girilen bir sayının pozitif çift sayı olup olmadığını kontrol ediniz.
 # sayi = int(input('sayı: '))
@@ -11,7 +12,7 @@
 
 
 # 3- Email ve parola bilgileri ile giriş kontrolü yapınız. 
-# email = 'email@sadikturan.com'
+# email = 'email@muhammetckmk.com'
 # password = 'abc123'
 
 # girilenEmail = input('email: ')
