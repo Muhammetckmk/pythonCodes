@@ -1,55 +1,45 @@
 
 # 1- Girilen bir sayının 0-100 arasında olup olmadığını kontrol ediniz.
-giris=int(input('bir sayı giriniz : '))
-result= (giris>0) and (giris<100)
-print ( result)
+
 
 
 # 2- Girilen bir sayının pozitif çift sayı olup olmadığını kontrol ediniz.
-# sayi = int(input('sayı: '))
-# result = (sayi > 0) and (sayi % 2 ==0)
-# print(f'girilen sayı pozitif çift sayı mı: {result}')
-
+#sayi=int(input('Bir sayı giriniz : '))
+#soru=sayi>0 and sayi%2==0
+#print(soru)
 
 # 3- Email ve parola bilgileri ile giriş kontrolü yapınız. 
-# email = 'email@muhammetckmk.com'
-# password = 'abc123'
+email='muhammetckmk46@gmail.com'
+sifre=123456
 
-# girilenEmail = input('email: ')
-# girilenPassword = input('password: ')
-
-# result = (girilenEmail == email) and (girilenPassword == password)
-# print(f'uygulamaya giriş başarılı mı: {result}')
+print(email=='muhammetckmk46@gmail.com' and sifre==123456)
 
 
 # 4- Girilen 3 sayıyı büyüklük olarak karşılaştırınız.
-# a = int(input('a: '))
-# b = int(input('b: '))
-# c = int(input('c: '))
 
-# result = (a > b) and  (a > c)
-# print(f'a en büyük sayıdır : {result}')
-
-# result = (b > a) and (b > c)
-# print(f'b en büyük sayıdır : {result}')
-
-# result = (c > a) and (c > b)
-# print(f'c en büyük sayıdır : {result}')
-
+#a = int(input('a: '))
+#b = int(input('b: '))
+#c = int(input('c: '))
+#
+#result = (a > b) and  (a > c)
+#print(f'a en büyük sayıdır : {result}')
+#
+#result = (b > a) and (b > c)
+#print(f'b en büyük sayıdır : {result}')
+#
+#result = (c > a) and (c > b)
+#print(f'c en büyük sayıdır : {result}')
 
 # 5- Kullanıcıdan 2 vize (%60) ve final (%40) notunu alıp ortalama hesaplayınız.
 #    Eğer ortalama 50 ve üstündeyse geçti değilse kaldı yazdırın.
 #    a-) Ortamalama 50 olsa bile final notu en az 50 olmalıdır.
 #    b-) Finalden 70 alındığında ortalamanın önemi olmasın.
 
-# vize1 = float(input('vize 1: '))
-# vize2 = float(input('vize 2: '))
-# final = float(input('final : '))
-
-# ortalama = ((vize1+vize2)/2)*0.6 + (final * 0.4)
-# result = (ortalama>=50) and (final>=50)
-# result = (ortalama >=50) or (final>=70)
-
+#vize1=int(input('birinci vize notunuz : '))
+#vize2=int(input('ikinci vize notunuz : '))
+#final=int(input('final notunuz : '))
+#ortalama=(vize1*30/100)+(vize2*30/100)+(final*40/100)
+#print(ortalama)
 # print(f'öğrencinin ortalaması: {ortalama} ve geçme durumu: {result}')
 
 
@@ -62,6 +52,25 @@ print ( result)
 #    18.5-24.9 => Normal  
 #    25.0-29.9 => Fazla Kilolu
 #    30.0-34.9 => Şişman (Obez)
+
+name=input("adınızı : ")
+boy= float(input("boyunuz : "))
+kilo= float(input("kilonuz : "))
+
+indx=kilo/(boy**2)
+zayıf=indx<=18.4
+normal=(indx>18.4) and (indx<=24.9)
+kilolu=(indx>24.9) and (indx<=29.9)
+obez=indx>29.9
+print(f'sayın {name}: kilo ve boy oranınız alındığında siz zayıf :{zayıf} sınız')
+print(f'sayın {name}: kilo ve boy oranınız alındığında siz normal:  {normal} sınız')
+print(f'sayın {name}: kilo ve boy oranınız alındığında siz kilolu: {kilolu} sınız')
+print(f'sayın {name}: kilo ve boy oranınız alındığında siz obez : {obez} sınız')
+
+
+
+
+
 
 
 name = input('adınız: ')
