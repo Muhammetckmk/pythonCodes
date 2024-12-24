@@ -14,7 +14,7 @@
 #     print(x)
 
 
-# 1- 100 e kadar tek sayıların toplamı
+# 1- 100 e kadar tek sayıların toplamı Muhammet
 
 x = 0
 result = 0
